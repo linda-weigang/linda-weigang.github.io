@@ -1,197 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../mtp/mtP.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-   <style>
-    :root {
-            /* Color Palette - 5 Core Colors */
-            --color-primary: #6398dc;     /* Vibrant Blue - Main Brand Color */
-            --color-secondary: #4babbb;   /* Emerald Green - Complementary Action Color */
-            --color-accent: #a78ce3;      /* Passionate Red - Highlight / Warning Color */
-            --color-neutral: #8b94e6;     /* Deep Slate Gray - Neutral Text and Background */
-            --color-highlight: #c687d4;   /* Bright Yellow - Accent / Attention Color */
-            
-            /* Derived Colors for Flexibility */
-            --color-background: color-mix(in srgb, var(--color-neutral) 10%, #00161e);
-            --color-text-dark: var(--color-neutral);
-            --color-text-light: rgb(0, 0, 0);
-
-            /* Typography */
-            --font-primary: 'Faculty Glyphic', -apple-system, BlinkMacSystemFont, sans-serif;
-            --font-secondary: 'Instrument Serif', monospace;
-
-            /* Spacing System */
-            --spacing-xs: 8px;
-            --spacing-sm: 16px;
-            --spacing-md: 24px;
-            --spacing-lg: 32px;
-            --spacing-xl: 40px;
-
-            /* Border Radius */
-            --radius-sm: 4px;
-            --radius-md: 8px;
-            --radius-lg: 12px;
-
-
-        body {
-            font-family: var(--font-secondary);
-            line-height: 1.6;
-            background-color: var(--color-background);
-            color: var(--color-text-dark);
-            padding: var(--spacing-xl);
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        /* Typography Styles */
-        h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: var(--spacing-md);
-            color: var(--color-primary);
-        }
-
-        h2 {
-            font-size: 2rem;
-            font-weight: 600;
-            margin-bottom: var(--spacing-md);
-            color: var(--color-secondary);
-        }
-
-        h3 {
-            font-size: 1.5rem;
-            font-weight: 500;
-            margin-bottom: var(--spacing-sm);
-            color: var(--color-accent);
-        }
-
-        .body-text {
-            font-size: 1rem;
-            margin-bottom: var(--spacing-md);
-        }
-
-        .small-text {
-            font-size: 0.75rem;
-            color: color-mix(in srgb, var(--color-text-dark) 70%, transparent);
-        }
-
-        /* Color Palette Section */
-        .color-palette {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: var(--spacing-md);
-            margin-bottom: var(--spacing-xl);
-        }
-
-        .color-swatch {
-            padding: var(--spacing-md);
-            border-radius: var(--radius-md);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-
-        /* Component Styles */
-        .button {
-            display: inline-block;
-            padding: var(--spacing-sm) var(--spacing-md);
-            background-color: var(--color-primary);
-            color: var(--color-text-light);
-            text-decoration: none;
-            border-radius: var(--radius-sm);
-            transition: background-color 0.3s ease, transform 0.2s;
-            border: 2px solid transparent;
-        }
-
-        .button:hover {
-            background-color: color-mix(in srgb, var(--color-primary) 80%, black);
-            border-color: var(--color-secondary);
-            transform: scale(1.05);
-        }
-
-        .button:active {
-            transform: scale(0.95);
-            background-color: var(--color-secondary);
-        }
-
-        .link {
-            color: var(--color-secondary);
-            text-decoration: none;
-            transition: color 0.3s ease, text-decoration-color 0.3s;
-        }
-
-        .link:hover {
-            color: var(--color-accent);
-            text-decoration: underline;
-            text-decoration-color: var(--color-highlight);
-        }
-
-        .link:visited {
-            color: var(--color-neutral);
-        }
-
-        /* Spacing Demonstration */
-        .spacing-demo {
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-sm);
-            margin-bottom: var(--spacing-md);
-        }
-
-        .spacing-block {
-            background-color: var(--color-primary);
-            height: 50px;
-        }
-
-        }
-
-   </style>
-  </head>
-    <title>Home- Linda Weigang</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Running — Linda Weigang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="../mtp/mtP.css" rel="stylesheet">
 </head>
 <body>
-     <h1>Welcome to Linda's Running Page</h1>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="site-wrapper">
+
     <header>
-   
-    <nav class="navbar">
-        <ul>
+      <h1>Linda Weigang</h1>
+      <nav aria-label="Main navigation">
+        <div class="navbar">
+          <ul>
             <li><a href="../mtp/mtPhome.html">Home</a></li>
             <li><a href="../mtp/mtPeducation.html">Education</a></li>
-            <li><a href="../mtp/mtPrunning.html" class="current">Running</a></li>
-        </ul>
-    </nav>
+            <li><a href="../mtp/mtPrunning.html" class="current" aria-current="page">Running</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-<div class="two-columns">
-    <div>
-    <h2>Running</h2>
-    <p>I am a Student-Athlete at CU Boulder, I run cross country and track</p>
-    <h2>Events</h2>
-    <ul>
-        <li>Steeplechase </li>
-        <li>5K </li>
-        <li>6K</li>
-        <li>3K</li>
-        <li>10K(soon)</li>
-    </ul>
 
-    
-    <h2>What am I running from? Who am I running from?</h2>
-    <p>So actaully I am not running from anything</p>
-</div>
- <a href="../wa/running.jpg"><img src="../wa/running.jpg" alt="Post meet picture" width="350"></a>
- </div>
+    <main id="main-content">
+      <div class="two-columns">
+
+        <section aria-label="Running bio and events">
+          <h2>Running</h2>
+          <p>I am a student-athlete at CU Boulder competing in cross country and track.</p>
+
+          <h3>Events</h3>
+          <ul>
+            <li>Steeplechase</li>
+            <li>5K</li>
+            <li>6K</li>
+            <li>3K</li>
+            <li>10K (coming soon)</li>
+          </ul>
+
+          <h3>What am I running from?</h3>
+          <p>Nothing, actually...</p>
+        </section>
+
+        <section aria-label="Post-meet photo">
+          <a href="../wa/running.jpg" class="image-link" aria-label="View full-size post-meet photo">
+            <img src="../wa/running.jpg" alt="Post-meet photo of Linda with teammates after a cross country race" width="350">
+          </a>
+        </section>
+
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Linda Weigang &mdash; CU Boulder Student-Athlete</p>
+    </footer>
+
+  </div>
+
 </body>
 </html>
