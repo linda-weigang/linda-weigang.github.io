@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cursed Volume Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Totally Normal Volume Slider</h1>
+
+    <audio id="audio" controls loop>
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    </audio>
+
+    <p>Drag to change volume:</p>
+    <input id="volumeSlider" type="range" min="0" max="100" value="70">
+    <div id="volumeDisplay">Volume: 70%</div>
+    <p class="hint">(Why does it keep going down?)</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

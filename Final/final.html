@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Volume Control</title>
+  <link rel="stylesheet" href="final.css">
+</head>
+<body>
+  <h1>Please Adjust Volume.</h1>
+  <div class="container">
+    <input type="range" id="volumeSlider" min="0" max="100" value="30">
+    <span id="volumeValue">100%</span>
+  </div>
+<audio id="audio" loop>
+  <source src="haunted.mp3" type="audio/mpeg">
+</audio>
+  <div id="popup" class="popup hidden">
+    <div class="popup-box">
+      <h2>Verification Required</h2>
+      <p>Prove you are not a robot</p>
+
+      <label>Type your Full Name</label>
+      <input type="text" id="fakeInput">
+
+      <button id="verifyBtn">Verify</button>
+    </div>
+  </div>
+  <script src="final.js"></script>
+</body>
+</html>
