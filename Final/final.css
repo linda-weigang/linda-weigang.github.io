@@ -1,59 +1,59 @@
 
 
-body {
-  background: #c4b1eb;
-  color: #eee;
+body{
+  background:#c4b1eb;
+  color:#eee;
   font-family:'Faculty Glyphic', Georgia, serif;
-  text-align: center;
-  padding-top: 50px;
+  text-align:center;
+  padding-top:50px;
 }
 
-.container {
-  margin-top: 40px;
+.container{
+  margin-top:40px;
 }
 
-#volumeSlider {
-  width: 300px;
-  cursor: pointer;
+#volumeSlider{
+  width:300px;
+  cursor:pointer;
 }
 
-.popup {
-  position: fixed;
-  inset: 0;
-  background: rgba(139,148,230,0.25);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.popup{
+  position:fixed;
+  inset:0;
+  background:rgba(139,148,230,0.25);
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
-.hidden {
-  display: none;
+.hidden{
+  display:none;
 }
 
-.popup-box {
-  background: #c687d4;
-  padding: 20px;
-  border-radius: 10px;
-  width: 300px;
-  color: #fff;
+.popup-box{
+  background:#c687d4;
+  padding:20px;
+  border-radius:10px;
+  width:300px;
+  color:#fff;
 }
 
-.popup-box input {
-  width: 100%;
-  padding: 5px;
-  margin-top: 10px;
-  background: #c687d4;
-  border: 1px solid #555;
-  color: #fff;
+.popup-box input{
+  width:100%;
+  padding:5px;
+  margin-top:10px;
+  background:#c687d4;
+  border:1px solid #555;
+  color:#fff;
 }
 
-button {
-  margin-top: 15px;
-  padding: 10px 20px;
+button{
+  margin-top:15px;
+  padding:10px 20px;
   background:#4babbb;
-  border: none;
-  color: white;
-  cursor: pointer;
-  border-radius: 5px;
+  border:none;
+  color:white;
+  cursor:pointer;
+  border-radius:5px;
 }
 
